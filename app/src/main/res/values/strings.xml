@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attendancepy</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+
+</resources>

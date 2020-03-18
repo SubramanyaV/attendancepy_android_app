@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="info.subramanya.camerafileupload"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:9:5-67
+11-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:10:5-81
+12-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:10:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:11:5-80
+13-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:11:22-77
+14
+15    <application
+15-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:13:5-34:19
+16        android:name="info.subramanya.camerafileupload.ImageList"
+16-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:14:9-34
+17        android:allowBackup="true"
+17-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:15:9-35
+18        android:debuggable="true"
+19        android:label="@string/app_name"
+19-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:16:9-41
+20        android:testOnly="true"
+21        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+21-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:17:9-72
+22        <activity
+22-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:19:9-21:80
+23            android:name="info.subramanya.camerafileupload.PostActivity"
+23-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:20:13-41
+24            android:theme="@android:style/Theme.Material.Dialog.NoActionBar" />
+24-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:21:13-77
+25        <activity
+25-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:22:9-30:20
+26            android:name="info.subramanya.camerafileupload.MainActivity"
+26-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:23:13-41
+27            android:label="@string/app_name"
+27-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:24:13-45
+28            android:screenOrientation="portrait" >
+28-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:25:13-49
+29            <intent-filter>
+29-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:26:13-29:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:27:17-69
+30-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:27:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:28:17-77
+32-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:28:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:31:9-33:61
+36            android:name="info.subramanya.camerafileupload.UploadActivity"
+36-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:32:13-43
+37            android:screenOrientation="portrait" />
+37-->C:\Users\subbu\Desktop\CameraFileUpload\app\src\main\AndroidManifest.xml:33:13-49
+38    </application>
+39
+40</manifest>
